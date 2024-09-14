@@ -1,24 +1,22 @@
-# 化工知识库-aihg.top
+# 化工知识库-hao.aihg.top
 
 ## 概述
 
 1. 本库重点收集化工领域遇到的一些问题及解决方案，同时分享一些调研的相关产品市场情况，欢迎领域内同仁在每篇文章后积极交流；
-2. 针对
+2. 针对专业领域内信息进行加工整理。
 
+<<<<<<< HEAD
+=======
 ## 
-
-1. 从长文到一本近6万字的小书，从有感而发的分享到两年迭代而得的**完整方法论**
-1. 不再局限在独立开发，发展为**更为通用的方法论**，非技术读者也可创作数字商品或基于NoCode/开源项目+AI辅助构建在线服务
+>>>>>>> 74cf3a98d5802d06778aa60ab94062c654b9272f
 
 ![](src/images/aihg-chemtour-cover.png)
 
 ## 作者信息
 
 - 作者
-    - [adu8](https://ftqq.com)
-    - Email: <easychen@gmail.com>
-    - 微博：<https://weibo.com/easy>
-    - X：<https://twitter.com/easychen>
+    - [智化空](https://hao.aihg.top)
+
 
 ## 授权说明
 
@@ -31,7 +29,7 @@
 ## 电子书
 
 - 可使用 mdbook-epub 工具自行编译：`mdbook-epub --standalone` 然后 epub 在 book 目录下
-- 扫码订阅《方法论》更新频道后下载: [进入](https://subdeer.cn/channel/landing/11)
+
 
 ## 问题收集
 
