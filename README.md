@@ -36,7 +36,7 @@
 ## 问题收集
 
 <script src="https://utteranc.es/client.js"
-        repo="chemtour/aihg-chemtour"
+        repo="chemtour/chemtour"
         issue-term="chemtour-enhancement-issues"
         label="🤝enhancement"
         theme="github-light"
