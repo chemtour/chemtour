@@ -26,10 +26,10 @@
 
 
 ## mermaid示例
+详细的语法浏览[mermaid中文网](https://mermaid.nodejs.cn/)
 
 ```mermaid
 mindmap
-
   root((mindmap))
     Origins
       Long history
@@ -183,31 +183,7 @@ quadrantChart
 ```
 
 
-```mermaid
-zenuml
-    title Order Service
-    @Actor Client #FFEBE6
-    @Boundary OrderController #0747A6
-    @EC2 <<BFF>> OrderService #E3FCEF
-    group BusinessService {
-      @Lambda PurchaseService
-      @AzureFunction InvoiceService
-    }
 
-    @Starter(Client)
-    // `POST /orders`
-    OrderController.post(payload) {
-      OrderService.create(payload) {
-        order = new Order(payload)
-        if(order != null) {
-          par {
-            PurchaseService.createPO(order)
-            InvoiceService.createInvoice(order)      
-          }      
-        }
-      }
-    }
-```
 
 ```mermaid
 ---
