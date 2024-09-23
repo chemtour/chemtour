@@ -25,6 +25,21 @@
 </script>
 
 
+## katex示例
+详细的语法浏览[katex文档](https://katex.org/docs/supported.html)
+源文件github [mdbook-katex库](https://github.com/lzanini/mdbook-katex?tab=readme-ov-file)
+Here is an inline example, $ \pi(\theta) $,
+
+an equation,
+
+$$ \nabla f(x) \in \mathbb{R}^n, $$
+
+and a regular \$ symbol.
+
+$$ \mathrm{CO_{2} } + \mathrm{H_{2}}  \longrightarrow   \mathrm{CO} +\mathrm{H_{2} O} $$
+
+$$ \ce{SO4^2- + Ba^2+ -> BaSO4 v} $$
+
 ## mermaid示例
 详细的语法浏览[mermaid中文网](https://mermaid.nodejs.cn/)
 

@@ -13,4 +13,5 @@ additional-js = ["assets/fzf.umd.js", "assets/elasticlunr.js", "assets/mermaid.m
 input-404 = "404.md"
 site-url = "https://hao.aihg.top/chemtour/"
 
-
+[preprocessor.katex]
+after = ["links"]
