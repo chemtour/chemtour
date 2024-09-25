@@ -3,7 +3,7 @@ authors = ["Jason"]
 language = "zh-cn"
 multilingual = false
 src = "src"
-title = "[智化空知识库-hao.aihg.top](https://hao.aihg.top)"
+title = "智化空知识库-hao.aihg.top"
 
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
