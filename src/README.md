@@ -26,6 +26,17 @@
 </script>
 
 
+
+<audio src="https://m801.music.126.net/20241004152139/91fb180aa00a454e2a4670116a8d6037/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/30814731893/4a22/5f46/c3f1/1dc5f46481cd34a635368c5a66e20fb5.mp3"></audio>
+
+<video src="https://v6.huanqiucdn.cn/4394989evodtranscq1500012236/dcc2aee31397757894324008001/v.f100830.mp4"></video>
+
+<iframe height=498 width=510 src="https://v6.huanqiucdn.cn/4394989evodtranscq1500012236/dcc2aee31397757894324008001/v.f100830.mp4"></iframe>
+
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=33367876&auto=1&height=66"></iframe>
+
+
 ## katex示例
 详细的语法浏览[katex文档](https://katex.org/docs/supported.html)
 源文件github [mdbook-katex库](https://github.com/lzanini/mdbook-katex?tab=readme-ov-file)
