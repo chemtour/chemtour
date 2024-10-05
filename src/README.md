@@ -28,14 +28,13 @@
 
 
 
-
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="./mp3/test.mp3"></iframe>
 
 <br>
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=25892489&auto=0&height=66"></iframe>
 
-
+<br>
 
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=509609004&bvid=BV1Eu411B74X&cid=543828532&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
@@ -59,6 +58,35 @@ $$ \ce{SO4^2- + Ba^2+ -> BaSO4 v} $$
 
 ## mermaid示例
 详细的语法浏览[mermaid中文网](https://mermaid.nodejs.cn/)
+
+这是一个带链接的流程图，点击B和D都会导航到新的网页链接。
+
+<body>
+  <pre class="mermaid">
+    flowchart LR
+        A-->B
+        B-->C
+        C-->D
+        click A callback "Tooltip"
+        click B "https://adu8.top" "This is a link"
+        click C call callback() "Tooltip"
+        click D href "https://hao.aihg.top" "This is a link"
+  </pre>
+
+  <script>
+    window.callback = function () {
+      alert('A callback was triggered');
+    };
+    const config = {
+      startOnLoad: true,
+      flowchart: { useMaxWidth: true, htmlLabels: true, curve: 'cardinal' },
+      securityLevel: 'loose',
+    };
+    mermaid.initialize(config);
+  </script>
+</body>
+
+
 
 ```mermaid
 mindmap
