@@ -27,13 +27,17 @@
 
 
 
-<audio src="./mp3/test.mp3">测试音频</audio>
+
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="./mp3/test.mp3"></iframe>
 
+<br>
+
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=25892489&auto=0&height=66"></iframe>
 
-<video src="https://v6.huanqiucdn.cn/4394989evodtranscq1500012236/dcc2aee31397757894324008001/v.f100830.mp4">测试用视频</video>
+
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=509609004&bvid=BV1Eu411B74X&cid=543828532&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 
 
@@ -74,6 +78,12 @@ mindmap
     Tools
       Pen and paper
       Mermaid
+      ::icon(mdi mdi-sitemap)
+            id1["`**Root** with
+a second line
+Unicode works too: 🤓`"]
+            id2["`The dog in **the** hog... a *very long text* that wraps to a new line`"]
+            id3[Regular labels still works]
 ```
 
 
