@@ -36,7 +36,7 @@
 
 <br>
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=509609004&bvid=BV1Eu411B74X&cid=543828532&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=509609004&bvid=BV1Eu411B74X&cid=543828532&p=1" scrolling="no" border="0" width=800 height=600 frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 
 
